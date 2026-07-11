@@ -246,3 +246,43 @@ nav{
     align-items: center;
     width: 400px;
 }
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 50px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    margin: 0;
+}
+
+.social-links a {
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #00bcd4;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+.copyright {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
