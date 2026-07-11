@@ -9,9 +9,12 @@ nav{
     display: flex;
     justify-content: space-between;
     color: black;
+    
 }
-header{
-    width: 1551px;
+.navigaton-bar, .hero{
+     width: 1551px;
+}
+.header-one{
     height: 98px;
     border-style: solid;
     border-color: black 6%;
@@ -40,4 +43,45 @@ header{
     border-radius: 5px;
     cursor: pointer;
     font-style: bold;
+}
+.hero{
+    height: 786px;
+    background-image: url(./assets/banner.jpg);
+    background: linear-gradient(to light, black, white);
+    background-position: center;
+
+}
+
+.paragraph-in-hero, .head-in-hero{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+       
+    
+}
+.hero , .button{
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+.head-in-hero{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -3.2px;
+    margin: 0;
+    padding: 100px 0px 20px 0px;
+}
+
+.paragraph-in-hero{
+    font-size: 22px;
+    width: 400px;
+    overflow-wrap: break-word;
+    line-height: 1.09;
+    margin: 0px;
+    padding: 0px 0px 300px 0px;
+    
+    
+
 }
