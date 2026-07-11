@@ -131,7 +131,7 @@ nav{
     
 
 }
-.div-pricing-combined{
+/* .div-pricing-combined{
     display: flex;
     justify-content: center;    
     align-items: center;
@@ -139,10 +139,17 @@ nav{
     justify-items: start;
     gap: 50px;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px auto; */
     
-
+.div-pricing-combined {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    padding: 20px;
+    margin: 20px auto;
 }
+
 
 .head-in-pricing{
     font-size: 40px;
@@ -154,7 +161,9 @@ nav{
     color: rgb(103, 103, 60);
     font-size: 30px;
 }
-
+.head-in-pricing-text{
+    font-size: 40;
+}
 .pricing-standard, .pricing-pro, .pricing-team{
     margin: 5px;
     padding: 15px;
@@ -196,4 +205,44 @@ nav{
 }
 .pricing-pro .ul-in-pricing li {
     color: white;
+}
+
+.pricing-button-1{
+   background-color: white;
+    color: blue;
+    padding: 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 30px;
+    border-color: blue;
+    width: 400px;
+}
+
+.pricing-button-2{
+    background-color:blue ;
+    color: white;
+    padding: 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 30px;
+    border-color: blue;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.pricing-button-3{
+    background-color:white ;
+    color: black;
+    padding: 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 30px;
+    border-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
 }
