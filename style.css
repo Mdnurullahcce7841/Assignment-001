@@ -11,7 +11,7 @@ nav{
     color: black;
     
 }
-.navigaton-bar, .hero, .speaker-section, .pricing-section{
+.navigaton-bar, .hero, .speaker-section, .pricing-section, .footer, .startup{
      width: 1551px;
 }
 .header-one{
@@ -98,7 +98,7 @@ nav{
     gap: 20px;
     text-align: left;
 }
-.head-in-speaker, .head-in-pricing{
+.head-in-speaker, .head-in-pricing, .head-in-startup{
     font-weight: bold;
     font-size: 80px;
     text-align: center;
@@ -131,17 +131,9 @@ nav{
     
 
 }
-/* .div-pricing-combined{
-    display: flex;
-    justify-content: center;    
-    align-items: center;
-    align-content: center;
-    justify-items: start;
-    gap: 50px;
-    padding: 20px;
-    margin: 20px auto; */
+
     
-.div-pricing-combined {
+.div-pricing-combined, .startup-container {
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -156,7 +148,7 @@ nav{
     text-align: center;
     padding: 80px 270px 56px 270px;
 }
-.paragraph-in-pricing-head{
+.paragraph-in-pricing-head, .paragraph-in-startup{
     font-weight: normal;
     color: rgb(103, 103, 60);
     font-size: 30px;
@@ -194,7 +186,7 @@ nav{
     font-style: bold;
 }
 
-.pricing-pro{
+.pricing-pro, .startup-card{
     background-color: rgb(13, 27, 42);
     color: white;
     
@@ -219,7 +211,7 @@ nav{
     width: 400px;
 }
 
-.pricing-button-2{
+.pricing-button-2, .startup-button{
     background-color:blue ;
     color: white;
     padding: 15px 0px;
@@ -284,5 +276,22 @@ hr {
 .copyright {
     text-align: center;
     margin: 0;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+.startup{
+    padding: 80px 10px;
+    text-align: center;
+}
+
+.startup-card img{
+    width: 70px;
+    height: 70px;
+}
+
+.startup-card{
+    font-size: 30px;
+    }
+.startup-button{
+    margin: 60px auto;
 }
