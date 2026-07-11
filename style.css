@@ -11,7 +11,7 @@ nav{
     color: black;
     
 }
-.navigaton-bar, .hero{
+.navigaton-bar, .hero, .speaker-section{
      width: 1551px;
 }
 .header-one{
@@ -81,7 +81,53 @@ nav{
     line-height: 1.09;
     margin: 0px;
     padding: 0px 0px 300px 0px;
+        
+}
+
+.speaker-section{
+     margin: 0;
+     padding: 0px 30px 100px 60px;  
+    background-color: white;
+}
+
+.div-in-main-speaker-section{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    text-align: left;
+}
+.head-in-speaker{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    padding: 80px 270px 56px 270px;
+}
+
+.pictures{
+    line-height: 1.8;
+    margin: 2px;
+    width: 644px;
+    font-size: 20px;
     
+}
+
+.subject-in-speaker, .name-in-speaker{
+    font-weight: bold;
+    
+
+}
+.subject-in-speaker{
+    
+    color: blue;
+    
+     
+}
+
+.name-in-speaker{
+    
+    font-size: 25px;
     
 
 }
